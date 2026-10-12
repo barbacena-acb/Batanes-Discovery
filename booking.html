@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="Prepare a Batanes travel inquiry using a privacy-conscious form that opens Gmail with the trip details ready to review." name="description"/>
+  <meta content="Batanes, Batanes tourism, Basco, Sabtang, Itbayat, Ivatan culture, Batanes travel guide" name="keywords"/>
+  <meta content="#173746" name="theme-color"/>
+  <title>
+   Book / Inquire | Batanes Discovery
+  </title>
+  <link href="assets/style.css" rel="stylesheet"/>
+  <script defer="" src="assets/script.js">
+  </script>
+ </head>
+ <body>
+  <a class="skip-link" href="#main">
+   Skip to content
+  </a>
+  <div class="notice-bar">
+   <div class="container notice-inner">
+    <span>
+     BATANES • CAGAYAN VALLEY • PHILIPPINES
+    </span>
+   </div>
+  </div>
+  <header class="site-header">
+   <div class="container nav-wrap">
+    <a aria-label="Northwind Batanes Home" class="brand" href="index.html">
+     <span class="brand-symbol">
+      BD
+     </span>
+     <span class="brand-copy">
+      <strong>
+       BATANES DISCOVERY
+      </strong>
+      <small>
+       EXPLORE THE FAR NORTH
+      </small>
+     </span>
+    </a>
+    <button aria-controls="site-nav" aria-expanded="false" aria-label="Open navigation" class="menu-toggle" type="button">
+     <span>
+     </span>
+     <span>
+     </span>
+     <span>
+     </span>
+    </button>
+    <nav aria-label="Main navigation" class="site-nav" id="site-nav">
+     <a class="" href="index.html">
+      Home
+     </a>
+     <a class="" href="about.html">
+      About
+     </a>
+     <a class="" href="destinations.html">
+      Destinations
+     </a>
+     <a class="" href="packages.html">
+      Tour Packages
+     </a>
+     <a class="" href="gallery.html">
+      Gallery
+     </a>
+     <a class="" href="travel-guide.html">
+      Travel Guide
+     </a>
+     <a aria-current="page" class="active" href="booking.html">
+      Book / Inquire
+     </a>
+     <a class="" href="contact.html">
+      Contact
+     </a>
+    </nav>
+   </div>
+  </header>
+  <main id="main">
+   <section class="page-hero page-hero-photo" style="--page-hero-image: url('https://commons.wikimedia.org/wiki/Special:Redirect/file/The%20Famous%20Rolling%20Hills%20of%20Batanes.jpg?width=1800');">
+    <div class="container">
+     <h1>
+      Turn an idea into a
+      <em>
+       clear inquiry.
+      </em>
+     </h1>
+     <p>
+      Complete the form and the website opens Gmail with
+            your trip details already prepared.
+     </p>
+    </div>
+   </section>
+   <section class="section">
+    <div class="container form-layout">
+     <div>
+      <div class="eyebrow">
+       TRIP INQUIRY
+      </div>
+      <h2>
+       Tell us what kind of Batanes trip you are planning.
+      </h2>
+      <p>
+       The form requests only normal travel-planning details.
+                Do not enter passwords, payment card details,
+                government identification numbers, medical records,
+                or other sensitive information.
+      </p>
+      <div class="note-box">
+       <strong>
+        How it works:
+       </strong>
+       submit the form, Gmail opens in a new tab addressed
+                to
+       <strong>
+        marybuliran@gmail.com
+       </strong>
+       , then review your
+                message before sending.
+      </div>
+     </div>
+     <div class="form-card">
+      <form id="inquiry-form">
+       <div class="form-row">
+        <label>
+         Full Name *
+         <input minlength="2" name="name" required="" type="text"/>
+        </label>
+        <label>
+         Email Address *
+         <input name="email" required="" type="email"/>
+        </label>
+       </div>
+       <div class="form-row">
+        <label>
+         Interested In *
+         <select id="interest" name="interest" required="">
+          <option value="">
+           Select an itinerary or attraction
+          </option>
+          <option value="North Batan Essentials">
+           North Batan Essentials
+          </option>
+          <option value="South Batan Landscapes">
+           South Batan Landscapes
+          </option>
+          <option value="Sabtang Heritage Day">
+           Sabtang Heritage Day
+          </option>
+          <option value="5-Day Northwind Batanes Escape">
+           5-Day Batanes Discovery Escape
+          </option>
+          <option value="Basco Lighthouse">
+           Basco Lighthouse
+          </option>
+          <option value="Vayang Rolling Hills">
+           Vayang Rolling Hills
+          </option>
+          <option value="Valugan Boulder Beach">
+           Valugan Boulder Beach
+          </option>
+          <option value="Tayid Lighthouse">
+           Tayid Lighthouse
+          </option>
+          <option value="Rakuh a Payaman">
+           Rakuh a Payaman
+          </option>
+          <option value="House of Dakay">
+           House of Dakay
+          </option>
+          <option value="Chamantad–Tinyan Viewpoint">
+           Chamantad–Tinyan Viewpoint
+          </option>
+          <option value="Chavayan Village">
+           Chavayan Village
+          </option>
+          <option value="Morong Beach">
+           Morong Beach
+          </option>
+          <option value="General travel question">
+           General travel question
+          </option>
+         </select>
+        </label>
+        <label>
+         Preferred Travel Date
+         <input id="trip-date" name="date" type="date"/>
+        </label>
+       </div>
+       <div class="form-row">
+        <label>
+         Number of Travelers
+         <input max="30" min="1" name="travelers" placeholder="2" type="number"/>
+        </label>
+        <label>
+         Estimated Budget
+         <select name="budget">
+          <option>
+           Undecided
+          </option>
+          <option>
+           ₱10,000–₱20,000
+          </option>
+          <option>
+           ₱20,000–₱40,000
+          </option>
+          <option>
+           ₱40,000+
+          </option>
+         </select>
+        </label>
+       </div>
+       <label>
+        Message
+        <textarea name="message" placeholder="Tell us which places, activities, accommodation style, or travel pace interest you."></textarea>
+       </label>
+       <div class="form-actions">
+        <button class="btn btn-rust" type="submit">
+         Open inquiry in Gmail
+        </button>
+        <a class="btn btn-outline-dark" href="https://visitors.breathtakingbatanes.com/" rel="noopener noreferrer" target="_blank">
+         Visitor registration
+        </a>
+       </div>
+       <p aria-live="polite" class="form-status" id="form-status">
+       </p>
+      </form>
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer class="footer">
+   <div class="container footer-grid">
+    <div>
+     <a class="brand brand-footer footer-brand" href="index.html">
+      <span class="brand-symbol footer-brand-symbol">
+       BD
+      </span>
+      <span class="brand-copy footer-brand-copy">
+       <strong>
+        BATANES DISCOVERY
+       </strong>
+       <small>
+        EXPLORE THE FAR NORTH
+       </small>
+      </span>
+     </a>
+     <p>
+      A visitor-friendly Batanes travel guide focused on landscapes,
+                Ivatan heritage, practical planning, and respectful travel.
+     </p>
+    </div>
+    <div>
+     <h3>
+      Explore
+     </h3>
+     <a class="footer-nav-link" href="destinations.html">
+      Destinations
+     </a>
+     <a class="footer-nav-link" href="packages.html">
+      Tour packages
+     </a>
+     <a class="footer-nav-link" href="gallery.html">
+      Gallery
+     </a>
+     <a class="footer-nav-link" href="travel-guide.html">
+      Travel guide
+     </a>
+    </div>
+    <div>
+     <h3>
+      Plan
+     </h3>
+     <a class="footer-nav-link" href="booking.html">
+      Book / inquire
+     </a>
+     <a class="footer-nav-link" href="travel-guide.html#registration">
+      Visitor registration
+     </a>
+     <a class="footer-nav-link" href="contact.html">
+      Contact
+     </a>
+     <a class="footer-nav-link" href="credits.html">
+      Credits &amp; privacy
+     </a>
+    </div>
+    <div>
+     <h3>
+      Contact
+     </h3>
+     <p>
+      ✉
+      <a class="footer-email-clean" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=marybuliran@gmail.com" rel="noopener noreferrer" target="_blank">
+       marybuliran@gmail.com
+      </a>
+     </p>
+     <p>
+      📍 Batanes, Philippines
+     </p>
+<p style="
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+    gap:18px;
+    margin:18px 0 22px 0;
+    height:34px;
+">
+
+    <!-- FACEBOOK -->
+    <a
+        href="https://www.facebook.com/search/top?q=Batanes%20Tourism"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Facebook"
+        title="Facebook"
+        style="
+            width:34px;
+            height:34px;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            padding:0;
+            margin:0;
+            border:0;
+            background:transparent;
+            text-decoration:none;
+            line-height:0;
+        "
+    >
+        <svg
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+            style="
+                width:30px;
+                height:30px;
+                display:block;
+            "
+        >
+            <path
+                fill="#1877F2"
+                d="M13.6 22v-8.4h2.8l.4-3.2h-3.2V8.3c0-.9.3-1.6 1.7-1.6H17V3.8c-.3 0-1.4-.1-2.7-.1-2.7 0-4.5 1.6-4.5 4.7v2H7v3.2h2.8V22h3.8z"
+            ></path>
+        </svg>
+    </a>
+
+
+    <!-- INSTAGRAM -->
+    <a
+        href="https://www.instagram.com/explore/tags/batanes/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Instagram"
+        title="Instagram"
+        style="
+            width:34px;
+            height:34px;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            padding:0;
+            margin:0;
+            border:0;
+            background:transparent;
+            text-decoration:none;
+            line-height:0;
+        "
+    >
+        <svg
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+            style="
+                width:30px;
+                height:30px;
+                display:block;
+            "
+        >
+            <defs>
+                <linearGradient
+                    id="instagramGradient"
+                    x1="0%"
+                    y1="100%"
+                    x2="100%"
+                    y2="0%"
+                >
+                    <stop offset="0%" stop-color="#F9CE34"></stop>
+                    <stop offset="45%" stop-color="#EE2A7B"></stop>
+                    <stop offset="100%" stop-color="#6228D7"></stop>
+                </linearGradient>
+            </defs>
+
+            <rect
+                x="2.5"
+                y="2.5"
+                width="19"
+                height="19"
+                rx="5.5"
+                fill="url(#instagramGradient)"
+            ></rect>
+
+            <rect
+                x="7"
+                y="7"
+                width="10"
+                height="10"
+                rx="3.2"
+                fill="none"
+                stroke="#ffffff"
+                stroke-width="1.7"
+            ></rect>
+
+            <circle
+                cx="12"
+                cy="12"
+                r="2.5"
+                fill="none"
+                stroke="#ffffff"
+                stroke-width="1.7"
+            ></circle>
+
+            <circle
+                cx="16"
+                cy="7.8"
+                r="1"
+                fill="#ffffff"
+            ></circle>
+        </svg>
+    </a>
+</p>
+     <p class="micro">
+      Flights, boat crossings, weather, visitor rules, fees, and
+                accommodation availability may change. Confirm important
+                details before travel.
+     </p>
+    </div>
+   </div>
+   <div class="container footer-bottom">
+    <span>
+     © 2026 Batanes Discovery | All Rights Reserved by Mary
+    </span>
+    <span>
+     @ALLRIGHTRESERVEBYMARY
+    </span>
+   </div>
+  </footer>
+  <button aria-label="Back to top" class="to-top" type="button">
+   ↑
+  </button>
+ </body>
+</html>
